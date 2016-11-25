@@ -1,0 +1,4 @@
+# A very simple neural network in Julia
+This was a small project I worked on in spring 2016 as an exercise in both learning the basics of Julia and understanding how neural networks are actually implemented. The initial goal was simply to create a feedforward neural network that could input RGB values and output whether or not the the color was red or not. After implementing a one neuron network and then two layer network, I wanted to create a modular network that could take in a vector of layer sizes and create itself accordingly. This project is only that iteration.
+
+I learned a lot for this project from [iamtrask's great tutorial](http://iamtrask.github.io/2015/07/12/basic-python-network/). In the next step of this project, I would like to improve on this network (possibly by starting a new, more organized version) by implementing other, more applicable optimization algorithms, biasing, and experimenting with genetic algorithms used on network topologies.
